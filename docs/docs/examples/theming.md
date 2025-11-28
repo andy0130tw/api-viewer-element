@@ -11,7 +11,7 @@ import '../../../fixtures/lit/lib/progress-bar.js';
 
 ```html preview-story
 <!-- Custom theme styles -->
-<link rel="stylesheet" href="/assets/theme.css">
+<link rel="stylesheet" href="/assets/theme.css" />
 
 <api-viewer src="/assets/custom-elements.json" theme="custom">
   <template data-element="fancy-accordion" data-target="slot">
@@ -29,9 +29,7 @@ import '../../../fixtures/lit/lib/progress-bar.js';
     </expansion-panel>
   </template>
   <template data-element="intl-currency" data-target="prefix">
-    <em>
-      Shipping:
-    </em>
+    <em> Shipping: </em>
   </template>
   <template data-element="intl-currency" data-target="suffix">
     <strong style="text-transform: uppercase">free!</strong>

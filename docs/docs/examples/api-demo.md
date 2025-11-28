@@ -11,7 +11,12 @@ import '../../../fixtures/lit/lib/progress-bar.js';
 
 ```html preview-story
 <api-demo src="/assets/custom-elements.json">
-  <template data-element="expansion-panel" data-target="knob" data-attr="dir" data-type="select">
+  <template
+    data-element="expansion-panel"
+    data-target="knob"
+    data-attr="dir"
+    data-type="select"
+  >
     <select>
       <option value=""></option>
       <option value="ltr"></option>
@@ -33,9 +38,7 @@ import '../../../fixtures/lit/lib/progress-bar.js';
     </expansion-panel>
   </template>
   <template data-element="intl-currency" data-target="prefix">
-    <em>
-      Shipping:
-    </em>
+    <em> Shipping: </em>
   </template>
   <template data-element="intl-currency" data-target="suffix">
     <strong style="text-transform: uppercase">free!</strong>

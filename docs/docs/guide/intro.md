@@ -26,7 +26,7 @@ cem analyze --globs "src/components/my-element.js"
 3. Create an HTML file and import the component:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <script type="module">
@@ -57,7 +57,10 @@ You can import API Viewer from one of the content delivery networks that support
 [unpkg.com CDN](https://unpkg.com):
 
 ```html
-<script type="module" src="https://unpkg.com/api-viewer-element?module"></script>
+<script
+  type="module"
+  src="https://unpkg.com/api-viewer-element?module"
+></script>
 ```
 
 [Skypack CDN](https://www.skypack.dev):

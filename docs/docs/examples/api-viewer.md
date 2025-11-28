@@ -38,9 +38,7 @@ import '../../../fixtures/lit/lib/progress-bar.js';
     </expansion-panel>
   </template>
   <template data-element="intl-currency" data-target="prefix">
-    <em>
-      Shipping:
-    </em>
+    <em> Shipping: </em>
   </template>
   <template data-element="intl-currency" data-target="suffix">
     <strong style="text-transform: uppercase">free!</strong>

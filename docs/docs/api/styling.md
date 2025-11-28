@@ -34,75 +34,75 @@ The following CSS shadow parts are available:
 
 ### Common UI parts
 
-| Part                     | Description                                             |
-| -------------------------| --------------------------------------------------------|
-| `header`                 | Header containing element name and navigation controls  |
-| `header-title`           | Title element placed in the header (element tag name)   |
-| `tab`                    | `<api-viewer-tab>` component used in docs and demo      |
-| `tab-panel`              | `<api-viewer-panel>` component used in docs and demo    |
-| `warning`                | Message shown when no elements or API docs are found    |
+| Part           | Description                                            |
+| -------------- | ------------------------------------------------------ |
+| `header`       | Header containing element name and navigation controls |
+| `header-title` | Title element placed in the header (element tag name)  |
+| `tab`          | `<api-viewer-tab>` component used in docs and demo     |
+| `tab-panel`    | `<api-viewer-panel>` component used in docs and demo   |
+| `warning`      | Message shown when no elements or API docs are found   |
 
 ### API docs
 
-| Part                     | Description                                             |
-| -------------------------| --------------------------------------------------------|
-| `docs-description`       | Custom element description placed under the header      |
-| `docs-container`         | The wrapper element placed under the description        |
-| `docs-column`            | Column, child of a `docs-row` part                      |
-| `docs-item`              | Item representing a single entry (property, event etc)  |
-| `docs-label`             | Label (name, attribute, type, description)              |
-| `docs-markdown`          | Item description with parsed markdown content           |
-| `docs-method`            | Method name with its params and return type             |
-| `docs-method-params`     | Comma-separated list of method params their types       |
-| `docs-method-type`       | Return type of a method, or "void" if not specified     |
-| `docs-param-name`        | Name of a method parameter                              |
-| `docs-param-type`        | Type of a method parameter                              |
-| `docs-row`               | Row containing columns. Child of a `docs-item` part     |
-| `docs-value`             | Sibling of a `docs-label` part (name, attribute, type)  |
-| `docs-value`             | Sibling of a `docs-label` part (name, attribute, type)  |
-| `md-h1`                  | Markdown `<h1>` elements                                |
-| `md-h2`                  | Markdown `<h2>` elements                                |
-| `md-h3`                  | Markdown `<h3>` elements                                |
-| `md-h4`                  | Markdown `<h4>` elements                                |
-| `md-h5`                  | Markdown `<h5>` elements                                |
-| `md-h6`                  | Markdown `<h6>` elements                                |
-| `md-a`                   | Markdown `<a>` elements                                 |
-| `md-p`                   | Markdown `<p>` elements                                 |
-| `md-ul`                  | Markdown `<ul>` elements                                |
-| `md-ol`                  | Markdown `<ol>` elements                                |
-| `md-li`                  | Markdown `<li>` elements                                |
-| `md-pre`                 | Markdown `<pre>` elements                               |
-| `md-code`                | Markdown `<code>` elements                              |
-| `md-strong`              | Markdown `<strong>` elements                            |
-| `md-em`                  | Markdown `<em>` elements                                |
-| `md-blockquote`          | Markdown `<blockquote>` elements                        |
-| `md-del`                 | Markdown `<del>` elements                               |
+| Part                 | Description                                            |
+| -------------------- | ------------------------------------------------------ |
+| `docs-description`   | Custom element description placed under the header     |
+| `docs-container`     | The wrapper element placed under the description       |
+| `docs-column`        | Column, child of a `docs-row` part                     |
+| `docs-item`          | Item representing a single entry (property, event etc) |
+| `docs-label`         | Label (name, attribute, type, description)             |
+| `docs-markdown`      | Item description with parsed markdown content          |
+| `docs-method`        | Method name with its params and return type            |
+| `docs-method-params` | Comma-separated list of method params their types      |
+| `docs-method-type`   | Return type of a method, or "void" if not specified    |
+| `docs-param-name`    | Name of a method parameter                             |
+| `docs-param-type`    | Type of a method parameter                             |
+| `docs-row`           | Row containing columns. Child of a `docs-item` part    |
+| `docs-value`         | Sibling of a `docs-label` part (name, attribute, type) |
+| `docs-value`         | Sibling of a `docs-label` part (name, attribute, type) |
+| `md-h1`              | Markdown `<h1>` elements                               |
+| `md-h2`              | Markdown `<h2>` elements                               |
+| `md-h3`              | Markdown `<h3>` elements                               |
+| `md-h4`              | Markdown `<h4>` elements                               |
+| `md-h5`              | Markdown `<h5>` elements                               |
+| `md-h6`              | Markdown `<h6>` elements                               |
+| `md-a`               | Markdown `<a>` elements                                |
+| `md-p`               | Markdown `<p>` elements                                |
+| `md-ul`              | Markdown `<ul>` elements                               |
+| `md-ol`              | Markdown `<ol>` elements                               |
+| `md-li`              | Markdown `<li>` elements                               |
+| `md-pre`             | Markdown `<pre>` elements                              |
+| `md-code`            | Markdown `<code>` elements                             |
+| `md-strong`          | Markdown `<strong>` elements                           |
+| `md-em`              | Markdown `<em>` elements                               |
+| `md-blockquote`      | Markdown `<blockquote>` elements                       |
+| `md-del`             | Markdown `<del>` elements                              |
 
 ### Live demo
 
-| Part                     | Description                                             |
-| -------------------------| ------------------------------------------------------- |
-| `demo-container`         | The wrapper element placed under the header             |
-| `demo-output`            | Wrapper of the rendered component in the live demo      |
-| `demo-snippet`           | Wrapper of the code snippet in the live demo            |
-| `demo-tabs`              | Tabs component used to switch panels in the live demo   |
-| `event-log`              | Wrapper of the event log tab content                    |
-| `event-record`           | `<p>` used as a record in the event log                 |
-| `knobs`                  | Wrapper of in the properties / styles knobs panel       |
-| `knobs-column`           | Column in the properties / styles knobs panel           |
-| `knobs-header`           | Header of the properties / styles knobs column          |
-| `knob-label`             | Label associated with an input in the knobs panel       |
+| Part             | Description                                           |
+| ---------------- | ----------------------------------------------------- |
+| `demo-container` | The wrapper element placed under the header           |
+| `demo-output`    | Wrapper of the rendered component in the live demo    |
+| `demo-snippet`   | Wrapper of the code snippet in the live demo          |
+| `demo-tabs`      | Tabs component used to switch panels in the live demo |
+| `event-log`      | Wrapper of the event log tab content                  |
+| `event-record`   | `<p>` used as a record in the event log               |
+| `knobs`          | Wrapper of in the properties / styles knobs panel     |
+| `knobs-column`   | Column in the properties / styles knobs panel         |
+| `knobs-header`   | Header of the properties / styles knobs column        |
+| `knob-label`     | Label associated with an input in the knobs panel     |
 
 ### Interactive elements
 
-| Part                     | Description                                             |
-| ------------------------ | ------------------------------------------------------- |
-| `button`                 | `<button>` used to copy code / clear events log         |
-| `checkbox`               | `<input type="checkbox">` used by boolean knobs         |
-| `input`                  | `<input type="text">` used by knobs                     |
-| `radio-button`           | `<input type="radio">` used to toggle docs / demo       |
-| `radio-label`            | `<label>` associated with the radio button element      |
-| `select`                 | `<select>` used to choose displayed component           |
-| `select-label`           | `<label>` associated with the select element            |
+| Part           | Description                                        |
+| -------------- | -------------------------------------------------- |
+| `button`       | `<button>` used to copy code / clear events log    |
+| `checkbox`     | `<input type="checkbox">` used by boolean knobs    |
+| `input`        | `<input type="text">` used by knobs                |
+| `radio-button` | `<input type="radio">` used to toggle docs / demo  |
+| `radio-label`  | `<label>` associated with the radio button element |
+| `select`       | `<select>` used to choose displayed component      |
+| `select-label` | `<label>` associated with the select element       |
 
 Read more about using `::part()` at [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/::part).

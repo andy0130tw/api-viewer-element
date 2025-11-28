@@ -69,9 +69,7 @@ This is useful to create complex UI samples for small components that are typica
 ```html
 <api-viewer src="./custom-elements.json">
   <template data-element="intl-currency" data-target="prefix">
-    <em>
-      Shipping:
-    </em>
+    <em> Shipping: </em>
   </template>
 </api-viewer>
 ```
@@ -113,7 +111,12 @@ Apart from `data-target`, this type requires `data-attr` attribute to specify wh
 To indicate which knob control to create, use `data-type` with appropriate value: `text`, `number`, `checkbox`, or `select`.
 
 ```html
-<template data-element="expansion-panel" data-target="knob" data-attr="dir" data-type="select">
+<template
+  data-element="expansion-panel"
+  data-target="knob"
+  data-attr="dir"
+  data-type="select"
+>
   <select>
     <option value=""></option>
     <option value="ltr"></option>
