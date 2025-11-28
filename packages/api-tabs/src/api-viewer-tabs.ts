@@ -8,7 +8,12 @@ const tpl = html`
     :host {
       display: flex;
       border-bottom-left-radius: var(--ave-border-radius);
-      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .panels {
+      flex: 1 1 auto;
     }
 
     @media (max-width: 600px) {
@@ -28,7 +33,9 @@ const tpl = html`
   <div class="tabs">
     <slot name="tab"></slot>
   </div>
-  <slot name="panel"></slot>
+  <div class="panels">
+    <slot name="panel"></slot>
+  </div>
 `;
 
 export class ApiViewerTabs extends HTMLElement {
