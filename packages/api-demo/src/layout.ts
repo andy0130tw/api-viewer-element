@@ -67,7 +67,6 @@ class ApiDemoLayout extends LitElement {
   @property({ attribute: false })
   propKnobs!: PropertyKnob[];
 
-  @property({ type: Boolean })
   private defined = false;
 
   private eventsController?: EventsController;

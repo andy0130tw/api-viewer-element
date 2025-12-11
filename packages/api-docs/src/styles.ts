@@ -88,6 +88,7 @@ export default css`
     font-family: var(--ave-monospace-font);
     font-size: 0.875rem;
     line-height: 1.5rem;
+    word-break: keep-all;
   }
 
   [part='docs-markdown'] p,
@@ -96,12 +97,22 @@ export default css`
     margin: 0.5rem 0;
   }
 
+  [part='docs-markdown'] code {
+    font-family: var(--ave-monospace-font);
+  }
+
   [part$='params'] {
     color: var(--ave-item-color);
   }
 
   [part$='type'] {
     color: var(--ave-secondary-color);
+  }
+
+  .unnamed {
+    font-family: inherit;
+    font-style: italic;
+    opacity: 0.5;
   }
 
   .accent {

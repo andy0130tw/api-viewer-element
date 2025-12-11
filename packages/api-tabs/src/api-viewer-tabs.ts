@@ -12,6 +12,10 @@ const tpl = html`
       overflow-y: auto;
     }
 
+    .tabs {
+      flex: 0 0 auto;
+    }
+
     .panels {
       flex: 1 1 auto;
     }

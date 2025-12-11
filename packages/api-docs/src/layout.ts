@@ -39,7 +39,9 @@ const renderItem = (
     <div part="docs-row">
       <div part="docs-column" class="column-name-${prefix}">
         <div part="docs-label">Name</div>
-        <div part="docs-value" class="accent">${name}</div>
+        ${name
+          ? html`<div part="docs-value" class="accent">${name}</div>`
+          : html`<div part="docs-value" class="unnamed">(unnamed)</div>`}
       </div>
       ${attribute === undefined
         ? nothing
@@ -148,7 +150,7 @@ class ApiDocsLayout extends LitElement {
       cssParts
     ].every((arr) => arr.length === 0);
 
-    props.sort((p) => (p.static ? -1 : 1));
+    props.sort((a, b) => (b.static ? 1 : 0) - (a.static ? 1 : 0));
 
     const attributes = attrs.filter(
       (x) => !props.some((y) => y.name === x.fieldName)
